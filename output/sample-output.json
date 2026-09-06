@@ -1,0 +1,58 @@
+{
+    "security_scan": {
+        "threats_detected": true,
+        "details": {
+            "XSS Injection Attempt": 1,
+            "SQL Injection Attempt": 2,
+            "Prompt Injection Attempt": 1
+        }
+    },
+    "emails": [
+        {
+            "email": "j.uwimana@alueducation.com",
+            "category": "ALU Staff"
+        },
+        {
+            "email": "support@bk.rw",
+            "category": "External(Not acceptable)"
+        },
+        {
+            "email": "grace.k@alumni.alueducation.com",
+            "category": "ALU Alumni"
+        },
+        {
+            "email": "p.niyonzima@si.alueducation.com",
+            "category": "ALU SI"
+        }
+    ],
+    "credit_cards": [
+        "**** **** **** 4432",
+        "****-****-****-9424"
+    ],
+    "phone_numbers": [
+        "+250 788 123 456",
+        "0722 445 981"
+    ],
+    "currency_amounts": [
+        "RWF 450,000",
+        "$362.50",
+        "USD 1,200.00",
+        "RWF 2,500,000",
+        "$5000"
+    ],
+    "time_formats": [
+        "9:00",
+        "17:30",
+        "14:00"
+    ],
+    "hashtags": [
+        "#4471",
+        "#ALUEvents",
+        "#StudentLife2026",
+        "#Kigali",
+        "#TechForGood",
+        "#notarealhashtag",
+        "#NoSpaceBefore",
+        "#Valid_Tag99"
+    ]
+}
