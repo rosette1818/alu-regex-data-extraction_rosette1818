@@ -1,4 +1,4 @@
-# 🕵️‍♀️ ALU Regex Data Extraction — Data Detective
+# 🕵️‍♀️ ALU Regex Data Extraction — Rosette
 
 ---
 
