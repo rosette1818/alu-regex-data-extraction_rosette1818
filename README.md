@@ -42,7 +42,7 @@ python3 src/main.py
 
 🛑 No Plaintext Logging: Prevents sensitive unmasked financial data or malicious payloads from ever being logged or displayed in plain text.
 
-## Known Limitations
+## Limitations Known
 📱 Regional Phone Bounds: The phone number regex is tailored specifically to Rwandan mobile formats (+250 / 07X) and will not capture generic international numbers.
 
 💱 Symbol Position: The currency extractor expects prefixes. 
