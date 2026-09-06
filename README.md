@@ -45,4 +45,4 @@ python3 src/main.py
 ## Known Limitations
 📱 Regional Phone Bounds: The phone number regex is tailored specifically to Rwandan mobile formats (+250 / 07X) and will not capture generic international numbers.
 
-💱 Symbol Position: The currency extractor expects prefixes (e.g $50 or RWF 100) and does not capture suffixed formats (e.g 50$ or 100 RWF).
+💱 Symbol Position: The currency extractor expects prefixes. 
