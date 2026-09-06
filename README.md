@@ -34,7 +34,7 @@ python3 src/main.py
 
 ## Security considerations
 
-🔒 Credit Card Redaction: Redacts all but the last 4 digits (e.g., `****-****-****-9424`) using `mask_credit_card()` to meet PCI-DSS compliance.
+🔒 Credit Card Redaction: Redacts all but the last 4 digits  to meet PCI-DSS compliance.
 
 🛡️ Threat Detection Scanner: Pre-scans raw text to flag XSS, SQL injection, and LLM prompt injection payloads before extraction.
 
