@@ -2,6 +2,7 @@ import json
 import os
 import re
 
+ # HELPER FUNCTIONS
 
 def mask_credit_card(card_str):
     """
@@ -43,13 +44,14 @@ def check_security_threats(text):
     return detected_threats
 
 
-# ==========================================
 # MAIN SCRIPT EXECUTION
-# ==========================================
+
 
 file_path = "input/raw-text.txt"
 output_dir = "output"
 output_file = os.path.join(output_dir, "sample-output.json")
+
+# Verify that the required input file exists before running extraction
 
 if not os.path.exists(file_path):
     print(

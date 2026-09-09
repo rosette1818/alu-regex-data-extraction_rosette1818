@@ -34,7 +34,7 @@ python3 src/main.py
 
 ## Security considerations
 
-🔒 Credit Card Redaction: Redacts all but the last 4 digits (e.g., `****-****-****-9424`) using `mask_credit_card()` to meet PCI-DSS compliance.
+🔒 Credit Card Redaction: Redacts all but the last 4 digits  to meet PCI-DSS compliance.
 
 🛡️ Threat Detection Scanner: Pre-scans raw text to flag XSS, SQL injection, and LLM prompt injection payloads before extraction.
 
@@ -42,7 +42,7 @@ python3 src/main.py
 
 🛑 No Plaintext Logging: Prevents sensitive unmasked financial data or malicious payloads from ever being logged or displayed in plain text.
 
-## Known Limitations
+## Limitations Known
 📱 Regional Phone Bounds: The phone number regex is tailored specifically to Rwandan mobile formats (+250 / 07X) and will not capture generic international numbers.
 
-💱 Symbol Position: The currency extractor expects prefixes (e.g $50 or RWF 100) and does not capture suffixed formats (e.g 50$ or 100 RWF).
+💱 Symbol Position: The currency extractor expects prefixes. 

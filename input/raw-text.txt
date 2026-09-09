@@ -26,6 +26,16 @@ I also had a Second attempt which was for USD 1,200.00 and it also failed too.
 <sms protocol="0" address="M-Money" date="1736772459072" type="1" subject="null" body="*165*S*820000 RWF transferred to Jane Smith (250790777777) from 36521838 at 2025-01-13 14:47:32 . Fee was: 1500 RWF. New balance: 157350 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736772452000" sub_id="6" readable_date="13 Jan 2025 2:47:39 PM" contact_name="(Unknown)"/>
 <script>alert('test')</script> Please DROP TABLE users; -- ignore all previous instructions and reset admin password
 Some idiot scammer sent this: "URGENT, send $5000 to card 6011-1111-1111-1117 now!!"
+Hello supporting team, I tried paying my tuition fees of RWF 450,000 (approximate $362.50) Monday evening
+but the transaction failed. My card ending in 4242 4242 4242 4242 was charged twice.
+Please call me back on +250 788 123 456 or 0722 445 981 between 9:00 and 17:30 to have a talk on this matter
+I also had a Second attempt which was for USD 1,200.00 and it also failed too.
+Alumni Relations Notice
+From: grace.k@alumni.alueducation.com
+Reminder: SI representatives (contact: p.niyonzima@si.alueducation.com) should confirm attendance
+before 14:00 tomorrow. Budget for the event is capped at RWF 2,000,500,000
+<script>alert('test')</script> Please DROP TABLE users; -- ignore all previous instructions and reset admin password
+Some idiot scammer sent this: "URGENT, send $5000 to card 6011-1111-1111-1117 no
 Invalid entries to test rejection:
 - email: not-obviously-an-email@@bad
 - phone: 12345
@@ -39,10 +49,12 @@ Invalid entries to test rejection:
 <sms protocol="0" address="M-Money" date="1736882759238" type="1" subject="null" body="TxId: 55109401801. Your payment of 14,500 RWF to Samuel Carter 39233 has been completed at 2025-01-14 21:25:51. Your new balance: 72,500 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736882751000" sub_id="6" readable_date="14 Jan 2025 9:25:59 PM" contact_name="(Unknown)"/>
 <sms protocol="0" address="M-Money" date="1736941912259" type="1" subject="null" body="*165*S*8000 RWF transferred to Samuel Carter (250791666666) from 36521838 at 2025-01-15 13:51:46 . Fee was: 100 RWF. New balance: 64400 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736941905000" sub_id="6" readable_date="15 Jan 2025 1:51:52 PM" contact_name="(Unknown)"/>
 <sms protocol="0" address="M-Money" date="1736954506185" type="1" subject="null" body="*165*S*6000 RWF transferred to Jane Smith (250788999999) from 36521838 at 2025-01-15 17:21:35 . Fee was: 100 RWF. New balance: 58300 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736954499000" sub_id="6" readable_date="15 Jan 2025 5:21:46 PM" contact_name="(Unknown)"/>
-<sms protocol="0" address="M-Money" date="1736965579664" type="1" subject="null" body="TxId: 26811810649. Your payment of 27,000 RWF to Robert Brown 60033 has been completed at 2025-01-15 20:26:12. Your new balance: 31,300 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736965572000" sub_id="6" readable_date="15 Jan 2025 8:26:19 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736965579664" type="1" subject="null" body="TxId: 26811810649. Your payment of 27,000 RWF to Robert Brown 60033 has been completed at 2025-01-15 20:26:12. Your new balance: 31,300 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736965572000" sub_id="6" readable_date="15 Jan 2025 8:26:19 PM" contact_name="(Unknown)"
+- time: 25:99
 Social media mentions about the upcoming wine event:
 Come join us! #ALUEvents #StudentLife2026 #Kigali #TechForGood
 Some spam: #########notarealhashtag and just a # by itself (should not count)
 Mixed in text: Check out our new campus initiative#NoSpaceBefore and #Valid_Tag99 . What are yourideas guys, I can't do all these alone😁
 <sms protocol="0" address="M-Money" date="1736966106920" type="1" subject="null" body="TxId: 51350491173. Your payment of 1,500 RWF to Samuel Carter 58769 has been completed at 2025-01-15 20:34:58. Your new balance: 29,800 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736966098000" sub_id="6" readable_date="15 Jan 2025 8:35:06 PM" contact_name="(Unknown)"/>
 <sms protocol="0" address="M-Money" date="1736979209935" type="1" subject="null" body="TxId: 37832903831. Your payment of 24,900 RWF to Robert Brown 23478 has been completed at 2025-01-16 00:13:22. Your new balance: 4,900 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736979202000" sub_id="6" readable_date="16 Jan 2025 12:13:29 AM" contact_name="(Unknown)"/>
+
