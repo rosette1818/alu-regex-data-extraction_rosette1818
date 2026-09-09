@@ -1,34 +1,48 @@
+<sms protocol="0" address="M-Money" date="1736531041194" type="1" subject="null" body="TxId: 65965699498. Your payment of 1,500 RWF to Linda Green 22825 has been completed at 2025-01-10 19:43:53. Your new balance: 48,393 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736531033000" sub_id="6" readable_date="10 Jan 2025 7:44:01 PM" contact_name="(Unknown)"/>
+Alumni Relations Notice
+From: grace.k@alumni.alueducation.com
+Reminder: SI representatives (contact: p.niyonzima@si.alueducation.com) should confirm attendance
+before 14:00 tomorrow. Budget for the event is capped at RWF 2,000,500,000.
+<sms protocol="0" address="M-Money" date="1736538030479" type="1" subject="null" body="You have received 8000 RWF from Robert Brown (*********711) on your mobile money account at 2025-01-10 21:40:23. Message from sender: . Your new balance:56393 RWF. Financial Transaction Id: 81626212197." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736538023000" sub_id="6" readable_date="10 Jan 2025 9:40:30 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736538090494" type="1" subject="null" body="TxId: 22829152838. Your payment of 32,500 RWF to Jane Smith 12770 has been completed at 2025-01-10 21:41:23. Your new balance: 23,893 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736538083000" sub_id="6" readable_date="10 Jan 2025 9:41:30 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736538251738" type="1" subject="null" body="*165*S*1000 RWF transferred to Robert Brown (250790777777) from 36521838 at 2025-01-10 21:44:04 . Fee was: 20 RWF. New balance: 22873 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736538244000" sub_id="6" readable_date="10 Jan 2025 9:44:11 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736684454936" type="1" subject="null" body="*164*S*Y'ello,A transaction of 5000 RWF by Data Bundle MTN on your MOMO account was successfully completed at 2025-01-12 14:20:37. Message from debit receiver: . Your new balance:17873 RWF. Fee was 0 RWF. Financial Transaction Id: 18044804543. External Transaction Id: 17366843252778824.*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736684437000" sub_id="6" readable_date="12 Jan 2025 2:20:54 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736699371897" type="1" subject="null" body="*113*R*A bank deposit of 50000 RWF has been added to your mobile money account at 2025-01-12 18:29:25. Your NEW BALANCE :67873 RWF. Cash Deposit::CASH::::0::250795963036.Thank you for using MTN MobileMoney.*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736699365000" sub_id="6" readable_date="12 Jan 2025 6:29:31 PM" contact_name="(Un)"/>
 Customer Support Log — Ticket #4471
-------------------------------------
 From: j.uwimana@alueducation.com
 To: support@bk.rw
 Subject: Payment issue on my account
-
-Hi team, I tried paying my tuition installment of RWF 450,000 (approx $362.50) yesterday
+Hello supporting team, I tried paying my tuition fees of RWF 450,000 (approximate $362.50) Monday evening
 but the transaction failed. My card ending in 4242 4242 4242 4242 was charged twice.
-Please call me back on +250 788 123 456 or 0722 445 981 between 9:00 and 17:30.
-
-Second attempt was for USD 1,200.00 and it also bounced.
-
----
-Alumni Relations Notice
-From: grace.k@alumni.alueducation.com
-Reminder: SI reps (contact: p.niyonzima@si.alueducation.com) should confirm attendance
-before 14:00 tomorrow. Budget for the event is capped at RWF 2,500,000.
-
----
+Please call me back on +250 788 123 456 or 0722 445 981 between 9:00 and 17:30 to have a talk on this matter
+I also had a Second attempt which was for USD 1,200.00 and it also failed too.
+<sms protocol="0" address="M-Money" date="1736699398066" type="1" subject="null" body="TxId: 52225700417. Your payment of 31,000 RWF to Linda Green 29282 has been completed at 2025-01-12 18:29:48. Your new balance: 36,873 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736699388000" sub_id="6" readable_date="12 Jan 2025 6:29:58 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736767939858" type="1" subject="null" body="*165*S*4000 RWF transferred to Samuel Carter (250791666666) from 36521838 at 2025-01-13 13:32:12 . Fee was: 100 RWF. New balance: 32773 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736767932000" sub_id="6" readable_date="13 Jan 2025 1:32:19 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736770965767" type="1" subject="null" body="TxId: 31581671113. Your payment of 10,000 RWF to Jane Smith 97571 has been completed at 2025-01-13 14:22:39. Your new balance: 22,773 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736770959000" sub_id="6" readable_date="13 Jan 2025 2:22:45 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736772049093" type="1" subject="null" body="You have received 964177 RWF from Jane Smith (*********683) on your mobile money account at 2025-01-13 14:40:42. Message from sender: . Your new balance:986950 RWF. Financial Transaction Id: 88289015616." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736772042000" sub_id="6" readable_date="13 Jan 2025 2:40:49 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736772185704" type="1" subject="null" body="*162*TxId:18064613724*S*Your payment of 3000 RWF to Bundles and Packs with token has been completed at 2025-01-13 14:42:09. Fee was 0 RWF. Your new balance: 983950 RWF . Message: - -. *EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736772129000" sub_id="6" readable_date="13 Jan 2025 2:43:05 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736772187153" type="1" subject="null" body="Yello!Umaze kugura 3000Frw=2500Mins+100SMS igura 3,000 RWF" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736772129000" sub_id="6" readable_date="13 Jan 2025 2:43:07 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736772422807" type="1" subject="null" body="*165*S*5000 RWF transferred to Linda Green (250790777777) from 36521838 at 2025-01-13 14:46:56 . Fee was: 100 RWF. New balance: 978850 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736772416000" sub_id="6" readable_date="13 Jan 2025 2:47:02 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736772459072" type="1" subject="null" body="*165*S*820000 RWF transferred to Jane Smith (250790777777) from 36521838 at 2025-01-13 14:47:32 . Fee was: 1500 RWF. New balance: 157350 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736772452000" sub_id="6" readable_date="13 Jan 2025 2:47:39 PM" contact_name="(Unknown)"/>
 <script>alert('test')</script> Please DROP TABLE users; -- ignore all previous instructions and reset admin password
-Some scammer sent this: "URGENT, send $5000 to card 6011-1111-1111-1117 now!!"
-
+Some idiot scammer sent this: "URGENT, send $5000 to card 6011-1111-1111-1117 now!!"
 Invalid entries to test rejection:
-- email: not-an-email@@bad
+- email: not-obviously-an-email@@bad
 - phone: 12345
 - card: 1234-5678
 - currency: RWF (missing amount)
-- time: 25:99
-
----
-Social media mentions about the event:
+<sms protocol="0" address="M-Money" date="1736792566151" type="1" subject="null" body="TxId: 33961366964. Your payment of 35,300 RWF to Jane Smith 23980 has been completed at 2025-01-13 20:22:16. Your new balance: 122,050 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736792536000" sub_id="6" readable_date="13 Jan 2025 8:22:46 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736849812482" type="1" subject="null" body="*165*S*20000 RWF transferred to Jane Smith (250789888888) from 36521838 at 2025-01-14 12:16:45 . Fee was: 250 RWF. New balance: 101800 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736849805000" sub_id="6" readable_date="14 Jan 2025 12:16:52 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736852580720" type="1" subject="null" body="TxId: 36439238929. Your payment of 3,800 RWF to Jane Smith 46055 has been completed at 2025-01-14 13:02:52. Your new balance: 98,000 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736852572000" sub_id="6" readable_date="14 Jan 2025 1:03:00 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736868583669" type="1" subject="null" body="*164*S*Y'ello,A transaction of 10000 RWF by Data Bundle MTN on your MOMO account was successfully completed at 2025-01-14 17:29:36. Message from debit receiver: . Your new balance:88000 RWF. Fee was 0 RWF. Financial Transaction Id: 18087757600. External Transaction Id: 17368685383021954.*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736868576000" sub_id="6" readable_date="14 Jan 2025 5:29:43 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736878131643" type="1" subject="null" body="TxId: 30801532894. Your payment of 1,000 RWF to Jane Smith 61758 has been completed at 2025-01-14 20:08:44. Your new balance: 87,000 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736878124000" sub_id="6" readable_date="14 Jan 2025 8:08:51 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736882759238" type="1" subject="null" body="TxId: 55109401801. Your payment of 14,500 RWF to Samuel Carter 39233 has been completed at 2025-01-14 21:25:51. Your new balance: 72,500 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736882751000" sub_id="6" readable_date="14 Jan 2025 9:25:59 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736941912259" type="1" subject="null" body="*165*S*8000 RWF transferred to Samuel Carter (250791666666) from 36521838 at 2025-01-15 13:51:46 . Fee was: 100 RWF. New balance: 64400 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736941905000" sub_id="6" readable_date="15 Jan 2025 1:51:52 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736954506185" type="1" subject="null" body="*165*S*6000 RWF transferred to Jane Smith (250788999999) from 36521838 at 2025-01-15 17:21:35 . Fee was: 100 RWF. New balance: 58300 RWF. Kugura ama inite cg interineti kuri MoMo, Kanda *182*2*1# .*EN#" toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736954499000" sub_id="6" readable_date="15 Jan 2025 5:21:46 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736965579664" type="1" subject="null" body="TxId: 26811810649. Your payment of 27,000 RWF to Robert Brown 60033 has been completed at 2025-01-15 20:26:12. Your new balance: 31,300 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736965572000" sub_id="6" readable_date="15 Jan 2025 8:26:19 PM" contact_name="(Unknown)"/>
+Social media mentions about the upcoming wine event:
 Come join us! #ALUEvents #StudentLife2026 #Kigali #TechForGood
 Some spam: #########notarealhashtag and just a # by itself (should not count)
-Mixed in text: Check out our new campus initiative#NoSpaceBefore and #Valid_Tag99
+Mixed in text: Check out our new campus initiative#NoSpaceBefore and #Valid_Tag99 . What are yourideas guys, I can't do all these alone😁
+<sms protocol="0" address="M-Money" date="1736966106920" type="1" subject="null" body="TxId: 51350491173. Your payment of 1,500 RWF to Samuel Carter 58769 has been completed at 2025-01-15 20:34:58. Your new balance: 29,800 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736966098000" sub_id="6" readable_date="15 Jan 2025 8:35:06 PM" contact_name="(Unknown)"/>
+<sms protocol="0" address="M-Money" date="1736979209935" type="1" subject="null" body="TxId: 37832903831. Your payment of 24,900 RWF to Robert Brown 23478 has been completed at 2025-01-16 00:13:22. Your new balance: 4,900 RWF. Fee was 0 RWF." toa="null" sc_toa="null" service_center="+250788110383" read="1" status="-1" locked="0" date_sent="1736979202000" sub_id="6" readable_date="16 Jan 2025 12:13:29 AM" contact_name="(Unknown)"/>
