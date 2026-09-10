@@ -42,7 +42,7 @@ def check_security_threats(text):
     return detected_threats
 
 
-# MAIN SCRIPT 😁
+# MAIN SCRIPT 
 
 
 file_path = "input/raw-text.txt"
