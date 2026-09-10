@@ -1,10 +1,44 @@
 {
     "security_scan": {
-        "threats_detected": false,
-        "details": "No threats detected."
+        "threats_detected": true,
+        "details": {
+            "XSS Injection Attempt": 2,
+            "SQL Injection Attempt": 4,
+            "Prompt Injection Attempt": 2
+        }
     },
-    "emails": [],
-    "credit_cards": [],
+    "emails": [
+        {
+            "email": "grace.k@alumni.alueducation.com",
+            "category": "ALU Alumni               \u2705 "
+        },
+        {
+            "email": "p.niyonzima@si.alueducation.com",
+            "category": "ALU SI                   \u2705 "
+        },
+        {
+            "email": "j.uwimana@alueducation.com",
+            "category": "ALU Staff                \u2705 "
+        },
+        {
+            "email": "support@bk.rw",
+            "category": "External(Not acceptable) \u274c "
+        },
+        {
+            "email": "grace.k@alumni.alueducation.com",
+            "category": "ALU Alumni               \u2705 "
+        },
+        {
+            "email": "p.niyonzima@si.alueducation.com",
+            "category": "ALU SI                   \u2705 "
+        }
+    ],
+    "credit_cards": [
+        "**** **** **** 4242",
+        "****-****-****-1117",
+        "**** **** **** 4242",
+        "****-****-****-1117"
+    ],
     "phone_numbers": [
         "+250788110383",
         "+250788110383",
@@ -14,6 +48,8 @@
         "+250788110383",
         "0795963036",
         "+250788110383",
+        "+250 788 123 456",
+        "0722 445 981",
         "+250788110383",
         "0791666666",
         "+250788110383",
@@ -25,6 +61,8 @@
         "+250788110383",
         "0790777777",
         "+250788110383",
+        "+250 788 123 456",
+        "0722 445 981",
         "+250788110383",
         "0789888888",
         "+250788110383",
@@ -40,10 +78,22 @@
         "+250788110383",
         "+250788110383"
     ],
-    "currency_amounts": [],
+    "currency_amounts": [
+        "RWF 2,000,500,000",
+        "RWF 450,000",
+        "$362.50",
+        "USD 1,200.00",
+        "$5000",
+        "RWF 450,000",
+        "$362.50",
+        "USD 1,200.00",
+        "RWF 2,000,500,000",
+        "$5000"
+    ],
     "time_formats": [
         "19:43",
         "7:44",
+        "14:00",
         "21:40",
         "9:40",
         "21:41",
@@ -54,6 +104,8 @@
         "2:20",
         "18:29",
         "6:29",
+        "9:00",
+        "17:30",
         "18:29",
         "6:29",
         "13:32",
@@ -69,6 +121,9 @@
         "2:47",
         "14:47",
         "2:47",
+        "9:00",
+        "17:30",
+        "14:00",
         "20:22",
         "8:22",
         "12:16",
@@ -92,5 +147,14 @@
         "00:13",
         "12:13"
     ],
-    "hashtags": []
+    "hashtags": [
+        "#4471",
+        "#ALUEvents",
+        "#StudentLife2026",
+        "#Kigali",
+        "#TechForGood",
+        "#notarealhashtag",
+        "#NoSpaceBefore",
+        "#Valid_Tag99"
+    ]
 }

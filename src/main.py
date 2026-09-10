@@ -6,8 +6,8 @@ import re
 
 def mask_credit_card(card_str):
     """
-    Masks a 16-digit credit card string, preserving formatting while hiding sensitive digits.
-    Example: '6011-0009-9013-9424' -> '****-****-****-9424'
+    Masks a 16-digit credit card string, hides sensitive digits.
+    Example: '6011-0009-9013-9424' will be seen like '****-****-****-9424'
     """
     digits = [char for char in card_str if char.isdigit()]
     if len(digits) != 16:
@@ -24,10 +24,8 @@ def mask_credit_card(card_str):
 
 
 def check_security_threats(text):
-    """
-    Scans text for malicious injection patterns (XSS, SQLi, Prompt Injection)
-    and returns detected threat metadata.
-    """
+     #Scans text for malicious patterns and reports what it detected.
+    
     threat_patterns = {
         "XSS Injection Attempt": r"<script.*?>.*?</script>|javascript:|onerror=",
         "SQL Injection Attempt": r"\b(DROP|DELETE|UPDATE|INSERT|SELECT)\s+(TABLE|FROM|INTO)\b|(?<!-)--(?!-)|';",
@@ -44,7 +42,7 @@ def check_security_threats(text):
     return detected_threats
 
 
-# MAIN SCRIPT EXECUTION
+# MAIN SCRIPT 😁
 
 
 file_path = "input/raw-text.txt"
@@ -64,7 +62,7 @@ else:
     # Data container for JSON output
     output_data = {}
 
-    # 🛡️ Security Threat Scan
+    #  Security Threat Scan
     threats = check_security_threats(raw_text)
     output_data["security_scan"] = {
         "threats_detected": len(threats) > 0,
@@ -72,88 +70,88 @@ else:
     }
 
     if threats:
-        print("⚠️  [SECURITY WARNING] Potential Malicious Content Detected:")
+        print("⚠️ ⚠️ ⚠️ Some Malicious Content was Detected:")
         for threat_type, count in threats.items():
-            print(f"   └── Flagged: {threat_type} ({count} occurrence(s))")
+            print(f"   Flagged: {threat_type} ({count} occurrence(s))")
     else:
-        print("✅ [SECURITY CHECK] No malicious payload or injection patterns detected.")
+        print(" ✅  No malicious injection patterns were detected.")
 
-    # 📩 Emails
+    #  Emails
     general_pattern = r"\b[a-zA-Z0-9_.+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b"
     extracted_emails = re.findall(general_pattern, raw_text)
     classified_emails = []
 
-    print(f"\n Extracted exactly {len(extracted_emails)} valid email(s) ")
+    print(f"\n Extracted exactly {len(extracted_emails)} valid emails(📩) ")
     for email in extracted_emails:
         domain = email.split("@")[-1].lower()
         if domain == "alumni.alueducation.com":
-            category = "ALU Alumni"
+            category = "ALU Alumni               ✅ "
         elif domain == "si.alueducation.com":
-            category = "ALU SI"
+            category = "ALU SI                   ✅ "
         elif domain == "alueducation.com":
-            category = "ALU Staff"
+            category = "ALU Staff                ✅ "
         else:
-            category = "External(Not acceptable)"
+            category = "External(Not acceptable) ❌ "
 
         classified_emails.append({"email": email, "category": category})
         print(f"[{category:<22}] {email}")
 
     output_data["emails"] = classified_emails
 
-    # 💳 Credit Cards
+    #  Credit Cards
     card_pattern = r"\b\d{4}[-\s]?\d{4}[-\s]?\d{4}[-\s]?\d{4}\b"
     extracted_cards = re.findall(card_pattern, raw_text)
     masked_cards = [mask_credit_card(card) for card in extracted_cards]
 
-    print(f"\n Extracted exactly {len(extracted_cards)} card-like number(s) ")
+    print(f"\n Extracted exactly {len(extracted_cards)} card-like numbers( 💳 ) ")
     for masked in masked_cards:
         print(f"Masked: {masked}")
 
     output_data["credit_cards"] = masked_cards
 
-    # ☎️ Phone Numbers
+    #  Phone Numbers
     phone_pattern = r"(?:\+250\s?|0)7[2389]\d{1}[-\s]?\d{3}[-\s]?\d{3}\b"
     extracted_phones = re.findall(phone_pattern, raw_text)
-    print(f"\n Extracted exactly {len(extracted_phones)} phone number(s) ")
+    print(f"\n Extracted exactly {len(extracted_phones)} phone numbers( ☎️ ) ")
     for phone in extracted_phones:
-        print(f"[Phone Number          ] {phone}")
+        print(f"[ Phone Number          ] {phone}")
 
     output_data["phone_numbers"] = extracted_phones
 
-    # 💰 Currency Amounts
+    #  Currency Amounts
     currency_pattern = (
         r"(?:\b(?:USD|RWF|EUR|Frw)\s?|[\$€£])\d+(?:,\d{3})*(?:\.\d{2})?\b"
     )
     extracted_currencies = re.findall(currency_pattern, raw_text)
     print(
-        f"\n Extracted exactly {len(extracted_currencies)} currency amount(s) "
+        f"\n Extracted exactly {len(extracted_currencies)} currency amounts( 💰 ) "
     )
     for amount in extracted_currencies:
-        print(f"[Currency Amount       ] {amount}")
+        print(f"[Currency Amount     ] {amount}")
 
     output_data["currency_amounts"] = extracted_currencies
 
-    # ⏰ Time Formats
+    #  Time Formats
     time_pattern = r"\b(?:1[0-2]|0?[1-9]):[0-5]\d\s?(?:AM|PM|am|pm)\b|\b(?:[01]?\d|2[0-3]):[0-5]\d\b"
     extracted_times = re.findall(time_pattern, raw_text)
-    print(f"\n Extracted exactly {len(extracted_times)} time format(s) ")
+    print(f"\n Extracted exactly {len(extracted_times)} time formats( ⏰ ) ")
     for time_str in extracted_times:
         print(f"[Time Format           ] {time_str}")
 
     output_data["time_formats"] = extracted_times
 
-    # #️⃣ Hashtags
+    # Hashtags
     hashtag_pattern = r"#\w+"
     extracted_hashtags = re.findall(hashtag_pattern, raw_text)
-    print(f"\n Extracted exactly {len(extracted_hashtags)} hashtag(s) ")
+    print(f"\n Extracted exactly {len(extracted_hashtags)} hashtags( #️⃣ ) ")
     for tag in extracted_hashtags:
-        print(f"[Hashtag               ] {tag}")
+        print(f"[Hashtag              ] {tag}")
 
     output_data["hashtags"] = extracted_hashtags
 
-    # 💾 Save Structured Results to JSON
+    #  Save Structured Results to JSON
     os.makedirs(output_dir, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as json_out:
         json.dump(output_data, json_out, indent=4)
 
-    print(f"\n💾 Results successfully exported to '{output_file}'.")
+    print(f"\n Results successfully saved( 💾 ) to '{output_file}'.")
