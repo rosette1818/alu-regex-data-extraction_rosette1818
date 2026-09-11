@@ -5,10 +5,9 @@ import re
  # HELPER FUNCTIONS
 
 def mask_credit_card(card_str):
-    """
-    Masks a 16-digit credit card string, hides sensitive digits.
-    Example: '6011-0009-9013-9424' will be seen like '****-****-****-9424'
-    """
+   
+    # this one Masks a 16-digit credit card string then it hides sensitive digits.
+    
     digits = [char for char in card_str if char.isdigit()]
     if len(digits) != 16:
         return card_str
@@ -22,9 +21,8 @@ def mask_credit_card(card_str):
     else:
         return f"************{last_4}"
 
-
 def check_security_threats(text):
-     #Scans text for malicious patterns and reports what it detected.
+     # This one Scans text for malicious patterns and reports when some are detected
     
     threat_patterns = {
         "XSS Injection Attempt": r"<script.*?>.*?</script>|javascript:|onerror=",
@@ -41,9 +39,7 @@ def check_security_threats(text):
 
     return detected_threats
 
-
 # MAIN SCRIPT 😁
-
 
 file_path = "input/raw-text.txt"
 output_dir = "output"
@@ -123,9 +119,7 @@ else:
         r"(?:\b(?:USD|RWF|EUR|Frw)\s?|[\$€£])\d+(?:,\d{3})*(?:\.\d{2})?\b"
     )
     extracted_currencies = re.findall(currency_pattern, raw_text)
-    print(
-        f"\n Extracted exactly {len(extracted_currencies)} currency amounts( 💰 ) "
-    )
+    print(        f"\n Extracted exactly {len(extracted_currencies)} currency amounts( 💰 ) " )
     for amount in extracted_currencies:
         print(f"[Currency Amount     ] {amount}")
 
