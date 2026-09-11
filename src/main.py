@@ -40,7 +40,6 @@ def check_security_threats(text):
     return detected_threats
 
 # MAIN SCRIPT 😁
-
 file_path = "input/raw-text.txt"
 output_dir = "output"
 output_file = os.path.join(output_dir, "sample-output.json")
